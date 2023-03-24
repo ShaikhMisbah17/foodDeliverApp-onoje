@@ -1,0 +1,9 @@
+.home_bg {
+  width: -webkit-fill-available;
+  height: 619px;
+  background: linear-gradient(
+    0deg,
+    rgba(23, 16, 16, 0.6),
+    rgba(23, 16, 16, 0.6)
+  );
+}
