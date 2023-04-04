@@ -11,16 +11,16 @@ function Navbar() {
       </div>
       <div className="navbar_listItems">
         <ul className="navbar__ul">
-          <Link className="link__style" to="/Home">
+          <Link to="/Home" className="link__style">
             <li className="navbar_home list">Home</li>
           </Link>
-          <Link className="link__style" to="/Product">
+          <Link to="/Product" className="link__style">
             <li className="list">Product</li>
           </Link>
-          <Link className="link__style" to="/FAQ">
+          <Link to="/FAQ" className="link__style">
             <li className="list">FAQ</li>
           </Link>
-          <Link className="link__style" to="/Contact">
+          <Link to="/Contact" className="link__style">
             <li className="list">Contact</li>
           </Link>
         </ul>
